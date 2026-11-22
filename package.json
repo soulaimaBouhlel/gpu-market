@@ -1,0 +1,21 @@
+{
+  "name": "gpu-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "chain": "ganache --server.host 0.0.0.0 --server.port 8545 --wallet.mnemonic \"test test test test test test test test test test test junk\" --wallet.defaultBalance 10000 --miner.blockTime 2 --chain.chainId 1337",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ganache": "^7.9.2",
+    "hardhat": "^2.29.2"
+  }
+}

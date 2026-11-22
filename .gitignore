@@ -1,0 +1,11 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+deployments/
+storage/files/
+e2e/logs/
